@@ -1,0 +1,49 @@
+body {
+  background-color: #C0C0C0;
+}
+
+#main {
+  width: 900px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+#content {
+	background-color: white;
+	height: 800px;
+	position: relative
+}
+
+#header {
+	height: 100px;
+	display: table;
+}
+
+#footer {
+	height: 100px;
+	background-color: #58D68D;
+	position: relative
+}
+
+#logo {
+	display: table-cell;
+	width: 700px;
+	background-color: #F1948A;
+	position: relative
+}
+
+#controlpanel {
+	display: table-cell;
+	width: 200px;
+	background-color: #F9E79F;
+	position: relative
+}
+
+p {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
